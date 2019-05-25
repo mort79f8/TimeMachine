@@ -1,0 +1,20 @@
+﻿@page "{date}"
+@{ 
+    string date = (string)RouteData.Values["date"];
+
+    switch (date)
+    {
+        case "margrethe":
+            <p>Prinsesse Margrethe blev født den 16. april 1940 på Amalienborg Slot i København som datter af kronprins Frederik og kronprinsesse Ingrid af Danmark. Hun er opkaldt efter sin mormor Margareta og har også arvet Margaretas kælenavn Daisy.[2][3] Hendes far var ældste søn af kong Christian 10. og dronning Alexandrine af Danmark. Hendes mor var eneste datter af kronprins Gustav Adolf (senere kong Gustaf 6. Adolf) og kronprinsesse Margareta af Sverige. Hendes fødsel fandt sted en uge efter Nazi-Tysklands invasion af Danmark i 1940.</p>
+            break;
+        case "worldwar2":
+            <p>Krigen i Europa sluttede den 8. maj, men fortsatte i Asien. Efter nedkastningen af atombomber i Hiroshima den 6. og Nagasaki den 9. august, besluttede den japanske krigsledelse den 15. august at overgive sig betingelsesløst. Den 2. september 1945 blev freden underskrevet og 2. verdenskrig var slut.</p>
+            break;
+        case "dimission":
+            <p>Der er eksamen og dimission den Torsdag D.13 Januar 2022. Dette tror jeg nok er den dag jeg er færdig på Aspit.</p>
+            break;
+        default:
+            break;
+    }
+}
+
