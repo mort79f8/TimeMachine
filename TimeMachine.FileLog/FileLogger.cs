@@ -15,7 +15,7 @@ namespace TimeMachine.FileLog
         {
             if(!File.Exists(Url))
             {
-                Console.WriteLine("It seems like the url to the file is incorrect");
+                // Console.WriteLine("It seems like the url to the file is incorrect");
             }
             else
             {
@@ -23,7 +23,7 @@ namespace TimeMachine.FileLog
                 {
                     writer.WriteLine(DateTime.Now.ToString("yyyy" + "-" + "mm" +"-" + "dd" + "-" + "HH:MM:SS") + ": " + value);
                 }
-                Console.WriteLine("string add to log");
+                // Console.WriteLine("string add to log");
             }
         }
     }

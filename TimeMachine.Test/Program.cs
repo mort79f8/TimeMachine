@@ -8,6 +8,9 @@ namespace TimeMachine.Test
         {
             TimeMachine.FileLog.FileLogger.Url = @"D:\test\log.txt";
             TimeMachine.FileLog.FileLogger.WriteLine("This is a string");
+            TimeMachine.FileLog.FileLogger.WriteLine("This is a string");
+            TimeMachine.FileLog.FileLogger.WriteLine("This is a string");
+            TimeMachine.FileLog.FileLogger.WriteLine("This is a string");
         }
     }
 }

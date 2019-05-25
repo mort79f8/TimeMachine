@@ -11,7 +11,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Pages\Logs\" />
     <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TimeMachine.FileLog\TimeMachine.FileLog.csproj" />
   </ItemGroup>
 
 </Project>
